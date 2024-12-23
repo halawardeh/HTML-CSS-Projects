@@ -1,0 +1,347 @@
+.body {
+  background-color: #aeaeae;
+  height: 100%;
+}
+
+.dosis-header-text .body {
+  font-family: "Dosis", serif;
+  font-optical-sizing: auto;
+  font-weight: 1vw;
+  font-style: normal;
+}
+
+.dosis-header-text .header-text h3 {
+  font-family: "Dosis", serif;
+  font-optical-sizing: auto;
+  font-weight: 1vw;
+  font-style: normal;
+}
+
+.logo {
+  position: relative;
+  left: -119%;
+  top: 0;
+  width: 20vw;
+  height: 100%;
+}
+
+.header-text {
+  height: 650px;
+  background-color: #f8f1ff;
+  padding-top: 100px;
+  padding-left: 100px;
+}
+
+.header-text h3 {
+  position: absolute;
+  margin-left: 963px;
+  margin-top: -261px;
+  font-family: serif;
+  color: #3a3a3a;
+  background-color: #f8f1ff;
+  padding: 78px 20px 80px 20px;
+  border-radius: 5px;
+  background-image: linear-gradient(#8b8787, #f8f1ff);
+  border: 3px gray solid;
+  box-shadow: 1px 1px 50px #f8f1ff;
+
+}
+
+.nav-item {
+
+  margin-top: 1vw;
+  margin-left: 2vw;
+  color: #474747;
+
+}
+
+.nav-link {
+  color: #3a3a3a
+}
+
+.btn {
+  background-color: #f8f1ff;
+  border: 1px;
+  color: #7F7C82;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+  border: 5px rgb(219, 219, 219) solid;
+  margin-top: 107px;
+  margin-left: 50px;
+  position: relative;
+
+}
+
+.about-me {
+  width: 50%;
+  color: #474747;
+  font-size: large;
+  font-family: cursive;
+  border-radius: 5px;
+  padding: 3vw 5vw 2vw 4vw;
+  background-image: linear-gradient(#f1eded, #ccbddb);
+  border: .1vw solid gray;
+  box-shadow: .1vw .1vw 2vw #525054;
+  position: relative;
+  bottom: 0vw;
+  
+}
+
+.profile-img {
+  width: 25%;
+    height: 25%;
+    padding: 1vw;
+    margin: -3vw;
+    position: relative;
+    right: -18%;
+    border: 2px 2px solid rgb(77, 74, 74);
+    box-shadow: 7vw 3vw 50vw #8f74a9;
+    border-radius: 4vw;
+    bottom: 13vw;
+    top: -13vw;
+}
+
+.card {
+  position: relative;
+  width: 95%;
+  height: auto;
+  background-color: #585858a4;
+  margin: 23px;
+  padding: 20px;
+
+}
+#skills{
+  background-color: #f8f1ff;
+}
+.skills {
+  height: 75%;
+  width: auto;
+  background-color: #f8f1ff;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+
+.projects-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
+  margin: 5%;
+  grid-gap: 5%;
+  
+
+}
+
+.projects-list h2 {
+  text-align: center;
+}
+
+.project {
+  border: 3px solid gray;
+  width: 100%;
+  padding: 5%;
+  background-color: #f8f1ff;
+  height: 82%;
+  box-shadow: 1vw 1vw 1vw #474747;
+  border-radius: 2vw;
+
+}
+
+.p-img {
+  width: 100%;
+  height: 50%;
+  border-radius: .7vw;
+}
+
+.p-img:hover {
+  scale: 1.5;
+  transition-delay: .0.5s;
+  transition-duration: 2s;
+  transition-timing-function: ease;
+}
+
+.education {
+  height: auto;
+  background-color: white;
+  text-align: center;
+}
+
+.card1 {
+  position: relative;
+    width: 60%;
+    height: auto;
+    background-color: #f8f1ff;
+    margin: 1% 20%;
+    padding: 25px;
+    border: 3px solid gray;
+    border-radius: 15px;
+
+}
+
+.events {
+  height: auto;
+  background-color: #f8f1ff;
+  position: relative;
+
+}
+
+.event {
+  width: 70%;
+  position: relative;
+  left: 15%;
+  display: flex;
+  flex-direction: row;
+  border: 3px solid gray;
+  justify-content: space-around;
+  /* padding-left: 5%;
+  padding-right: 17%;  */
+  text-align: center;
+  padding: 2vw;
+  background-color: white;
+}
+
+.form {
+  text-align: left;
+  background-color: #f8f1ff;
+  padding: 3vw;
+  width: 30%;
+  border-radius: 1vw;
+  box-shadow: 1vw 1vw 1vw #555;
+  height: auto;
+}
+
+input {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  height: 3vw;
+  margin-top: 1vw;
+  /* padding-right: 30%; */
+  border-radius: 1v;
+}
+
+.label {
+  font-size: 2vw;
+  font-family: "Dosis", serif;
+  width: auto;
+
+}
+
+.contact {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 3vw 0vw;
+  position: relative;
+  
+  
+}
+
+.button {
+  right: -72%;
+  position: relative;
+  background-color: #b58fd8;
+  border: 1px;
+  color: #434343;
+  padding: .7vw 2vw;
+  cursor: pointer;
+  font-size: 1vw;
+  border-radius: 4vw;
+  box-shadow: 2px 2px 15px #474747;
+  position: relative;
+  top: 15vw;
+}
+
+.vl {
+  border-left: .5vw solid #f8f1ff;
+  height: 30vw;
+}
+
+.a {
+  text-decoration: none !important;
+}
+
+.footer {
+  background-color: #BFA2DB;
+  
+  display: flex;
+}
+
+.cards{
+  position: relative;
+  width: 87%;
+  
+
+}
+.Technical-skills{
+   position: relative;
+   width: 100%;
+
+}
+
+.nav {
+  font-size: large;
+  background-color: #BFA2DB;
+  text-decoration: none;
+}
+
+.hala {
+  color: #b58fd8;
+  font-size: 40px;
+  position: relative;
+  top: -70px;
+}
+
+.full {
+  color: #585759;
+  font-size: 4vw;
+  text-shadow: 2px 5px 12px #a880d0;
+  position: relative;
+  top: -37px;
+}
+
+.education h1 {
+  color: #434343;
+  position: relative;
+  top: 20px;
+  padding-top: 20px;
+}
+
+.education div {
+  position: relative;
+  right: -2.3%;
+
+}
+
+.card1 img {
+  width: 20%;
+  height: 40%;
+}
+
+.skills h1 {
+  color: #434343;
+  position: relative;
+  /* top: .1vw;
+  padding-top: 0vw; */
+}
+
+.soft-div {
+  position: relative;
+}
+
+.soft-div h2 {
+  text-align: left;
+  position: relative;
+  left: 17vw;
+  top: -3vw;
+}
+
+
+.halaButton{
+ position: relative;  background-color: #b58fd8;    border: 1px;   color: #434343;  padding: .7vw 2vw;cursor: pointer;
+            font-size: 1vw; border-radius: 4vw; box-shadow: 2px 2px 15px #474747;position: relative;     top: 14vw;
+            left: 65vw;
+}
+
