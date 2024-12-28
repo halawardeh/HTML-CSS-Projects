@@ -1,0 +1,314 @@
+@media screen and (max-width: 426px) {
+
+
+    .logo {
+        display: none;
+    }
+
+    .nav {
+        display: grid !important;
+        /* grid-template-columns: auto auto auto auto  auto auto auto; */
+        grid-column: auto !important;
+
+
+    }
+
+    .nav-item {
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    .hala {
+        color: #b58fd8;
+        font-size: 35px;
+        position: relative;
+        top: -70px;
+        text-shadow: 1px 1px 2px #585759;
+        left: -20%;
+    }
+
+    .full {
+        top: -50px;
+        right: 13%;
+    }
+
+    .about-me {
+        color: #474747;
+        font-family: cursive;
+        border-radius: 5px;
+        padding: 3vw 5vw 2vw 4vw;
+        background-image: linear-gradient(#f1eded, #ccbddb);
+        border: .1vw solid gray;
+        box-shadow: .1vw .1vw 2vw #525054;
+        position: relative;
+        bottom: 0;
+        left: -12vw;
+        font-size: 70%;
+        height: 50%;
+    }
+
+    .header-text {
+        height: 515px;
+    }
+
+    .header-text h3 {
+        position: relative;
+        margin-left: -80px !important;
+        margin-top: 20px;
+        font-family: serif;
+        color: #3a3a3a;
+        padding: 1px 20px 2px 20px;
+        font-size: 80%;
+        /* width: 25%;       */
+    }
+
+    .header-text h3 {
+        position: absolute;
+        bottom: 0%;
+        font-family: "Dosis", serif;
+        color: #585759;
+        /* overflow: hidden; Ensures the content is not revealed until the animation */
+        border-right: .01em solid orange;
+        /* The typwriter cursor */
+        /* white-space: nowrap; Keeps the content on a single line */
+        margin: 0 auto;
+        /* Gives that scrolling effect as the typing happens */
+        letter-spacing: .1em;
+        /* Adjust as needed */
+        animation:
+            typing 3.0s steps(35, end),
+            blink-caret .75s step-end infinite;
+        font-weight: bold;
+
+    }
+
+    @keyframes blink-caret {
+
+        from,
+        to {
+            border-color: #b58fd8;
+        }
+
+        30% {
+            border-color: #b58fd8;
+        }
+
+    }
+
+    @keyframes typing {
+        from {
+            width: 0
+        }
+
+        to {
+            width: 91%
+        }
+    }
+
+
+
+    .profile-img {
+        bottom: 0;
+        top: 3vw;
+
+
+    }
+
+    .nav {
+        display: grid !important;
+        grid-template-columns: auto auto auto auto auto auto auto;
+        /* grid-column: auto !important; */
+
+
+    }
+
+    .profile-img {
+        width: 50%;
+        right: 11px;
+
+    }
+
+    .card1 {
+        height: auto;
+        width: auto;
+    }
+
+    .education {
+        height: 700px;
+    }
+
+    .education div {
+        position: relative;
+        /* margin-left: 10%; */
+        padding-bottom: 3%;
+        display: flow;
+    }
+
+    .card {
+        width: auto;
+    }
+
+    .skills {
+        height: auto;
+        display: block;
+    }
+
+    .skill-cards {
+
+        grid-template-columns: repeat(auto-fit, minmax(78%, 0));
+
+    }
+
+
+    .Technical-skills {
+        position: relative;
+        top: 0vw;
+        left: 0vw;
+
+    }
+
+    .projects-list {
+        /* display: grid; */
+        /* grid-template-rows: repeat(auto-fit, minmax(34%, 1fr)); */
+        margin: 1%;
+        /* grid-gap: 1%; */
+        display: flow;
+    }
+
+    .nav {
+        font-size: x-small;
+    }
+
+    .p-img {
+        height: 30%;
+    }
+
+    
+
+    .h5 {
+        font-size: 100%;
+    }
+
+    .project{
+        margin: 4%;
+    }
+    .project a {
+        position: relative;
+        top: -20%;
+    }
+
+   
+
+    .halaButton {
+        width: 100%;
+        position: absolute;
+        /* top: -40px; */
+        top: 210px;
+        left: 195px;
+        font-size: 18px;
+        /* display: none; */
+    }
+
+    .event h3,
+    p {
+        font-size: large;
+    }
+
+    .contact h2 {
+        font-size: 80%;
+    }
+
+    .contact a h5 {
+        font-size: 80%;
+    }
+
+    .form form textarea {
+        font-size: 50%;
+    }
+
+    .cards {
+
+        position: relative;
+        width: 100%;
+        display: grid;
+        grid-template-rows: repeat(2, minmax(0, 1fr)) !important;
+        justify-content: space-around;
+    }
+
+    .contact {
+        width: 75%;
+        display: flex;
+        margin: 3vw 0vw;
+        position: relative;
+        /* align-content: center; */
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        left: 70px;
+        flex-direction: column-reverse;
+    }
+
+    .form {
+        margin-top: -5%;
+        text-align: left;
+        background-color: #f8f1ff;
+        padding: 1vw 11%;
+        width: auto;
+        border-radius: 1vw;
+        box-shadow: 1vw 1vw 1vw #555;
+        height: auto;
+        margin-left: -0%;
+        margin-right: 0%;
+        border: 2px 2px 5px #3a3a3a;
+        position: relative;
+        left: -15%;
+    }
+
+    element.style {
+        border: 0;
+        margin-top: 0;
+        margin-left: 1%;
+        border-radius: 3%;
+        margin-right: 1%;
+        width: 26%;
+        height: 80%;
+        margin: 2% 2%;
+    }
+
+    .h5 {
+        font-size: 100%;
+    }
+
+    .icons {
+        margin:-4% 20%;
+        display: none;
+
+    }
+
+    .f-bar {
+        padding: 40px 12%;
+        font-size: medium;
+    }
+    .ifram{
+        display: none;
+
+    }
+    .nav-link1{
+        font-size: medium;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

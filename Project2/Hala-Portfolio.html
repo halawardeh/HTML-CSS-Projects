@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="mystyle.css">
-    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="css/mystyle.css">
+    <link rel="stylesheet" href="css/media.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap" rel="stylesheet">
@@ -25,7 +25,7 @@
 
 
     <ul class="nav justify-content-end">
-        <li><img class="logo" src="logo.png"></li>
+        <li><img class="logo" src="images/logo.png"></li>
         <li class="nav-item">
             <a class="nav-link disabled" href="#home"><b>Home</b></a>
         </li>
@@ -52,7 +52,6 @@
 
 
     </ul>
-
     <div class="header-text" id="home">
 
         <h5 class="hala"><b>Hala Bani Hamad</b></h3>
@@ -62,47 +61,58 @@
             </h1>
 
 
-            <!-- <h3 style="font-family: serif; color: white;"> “<span style="text-decoration: underline ;">Happiness is:</span><br> When
-                your<br> <span>CODE runs<br> without errors”</span></h3> -->
 
-            <button class=" halaButton">
 
-                <i class="fa fa-download"></i><a style="color: #474747; text-decoration: none;" href="Hala_CV.pdf">
-                    Download CV</a></button>
+
 
             <section style="display: flex; margin-top: 0px; ">
                 <p class="about-me">
                     Hi, I'm Hala Bani Hamad, a Full Stack Web Developer with a <br>
                     background in Network Engineering. I'm currently training at<br>
                     Orange, building dynamic and responsive web applications.<br>
-                    I enjoy crafting seamless user experiences and solving problems<br>
-                    with efficient, scalable solutions.<br></p>
-                <img class="profile-img" src="profile-removebg-preview.png">
+                    I enjoy crafting seamless user experiences and solving problems
+                    with efficient, scalable solutions.<br>
+                    <button class=" halaButton">
+                        <i class="fa fa-download"></i>
+                        <a style="color: #474747; text-decoration: none;" target="_blank"
+                            href="https://drive.google.com/file/d/1ORRPqXpFVTUdgFP-Ppc5nkw8RyyOjYKG/view?usp=sharing">
+                            Download CV</a>
+                    </button>
+                </p>
+
+
+                <img class="profile-img" src="/images/profile-removebg-preview.png">
+
             </section>
+
+            <h3 style="font-family: serif; color: rgb(28, 25, 25);"> “<span
+                    style="text-decoration: underline ;">Happiness
+                    is:</span> When
+                your CODE runs without errors”</h3>
     </div>
 
 
     <div id="education" class="education">
-        <br> <br>
+
         <h1><b>Education</b></h1>
         <br><br>
         <div>
 
             <div class="cards">
 
+
+
                 <div class="card1">
-                    <img src="sc-removebg-preview.png">
-                    <h4><b>High School, 2019</b></h4>
+                    <img src="/images/university.png">
+                    <h4><b>JUST University, Network Engineering & Security ( 2019 - 2024 )</b></h4>
+                    <p>Graduated from JUST university with a degree in Network Engineering and Security, achieving a
+                        "Very Good" Average.</p>
+                </div>
+                <div class="card1">
+                    <img src="/images/sc-removebg-preview.png">
+                    <h4><b>High School ( 2018 - 2019 )</b></h4><br>
                     <p>Graduated with a GPA of 96.2 in the scientific field from high school.</p>
                 </div>
-
-                <div class="card1">
-                    <img src="university.png">
-                    <h4><b>Just University, Network engineering and security, 2024</b></h4>
-                    <p>Graduated from JUST university with a degree in Network Engineering and Security, achieving a
-                        "Very Good" evaluation.</p>
-                </div>
-
 
             </div>
         </div>
@@ -111,67 +121,70 @@
 
 
 
-    
+
     <div id="skills">
-        <br><h1 style="text-align: center;"><b>Skills</b></h1>
+        <br>
+        <h1 style="text-align: center;"><b>Skills</b></h1>
         <div class="skills">
-            <div class="cards">
+            <div class="skill-cards">
 
                 <div class="Technical-skills">
                     <h2><b>Soft Skills</b></h2>
                     <div class="card">
-                        <h4><b>Management</b></h4>
+                        <h4>Management</h4>
                         <p>Skilled in organizational leadership, optimize workflows, allocate resources</p>
                     </div>
 
                     <div class="card">
-                        <h4><b>Problem Solving</b></h4>
+                        <h4>Problem Solving</h4>
                         <p>Excel in systematic, analytical problem-solving and demonstrating</p>
                     </div>
 
                     <div class="card">
-                        <h4><b>Leadership</b></h4>
+                        <h4>Leadership</h4>
                         <p>Proven success as a team leader with strong time management skills</p>
                     </div>
                 </div>
             </div>
-
-            <div class="cards">
+            <div class="skill-cards">
 
                 <div class="Technical-skills">
                     <h2><b>Technical Skills</b></h2>
                     <div class="card">
-                        <h4><b>Programming languages</b></h4>
-                        <p> C ,C++ and python.</p>
+                        <h4>Programming languages</h4>
+                        <h5> C ,C++ and python.</h5>
                     </div>
 
                     <div class="card">
-                        <h4><b>Web development</b></h4>
-                        <p>HTML, CSS and JavaScript.</p>
+                        <h4>Web development</h4>
+                        <h5>HTML, CSS and JavaScript.</h5>
                     </div>
 
                     <div class="card">
-                        <h4><b>Operating systems</b></h4>
-                        <p>Windows, Linux. </p>
+                        <h4>Operating systems</h4>
+                        <h5>Windows, Linux. </h5>
                     </div>
                 </div>
             </div>
+
+
         </div>
     </div>
 
     <div id="projects">
-        <div  class="container">
-            <br><h1 style="color: #434343;position: relative;
+        <div class="container">
+            <br>
+            <h1 style="color: #434343;position: relative;
               text-align: center;"><b>Projects</b></h1>
 
             <div class="projects-list">
                 <div class="project">
                     <h2>Web Application</h2><br>
-                    <img class="p-img" src="wisamo.png"><br>
+                    <img class="p-img" src="/images/wisamo.png"><br>
                     <br>
                     <p>Developed a professional application aimed at enhancing network performance. The project involved
                         determining the optimal locations for access points,
-                        contributing to an effective and optimized network infrastructure.</p><br>
+                        contributing to an effective and optimized network infrastructure.</p><br><br>
                     <a style="color: #474747; " target="_blank"
                         href="https://drive.google.com/file/d/1PYwMKMxVnu11QFMpDCXcVfNaLg3mN0Mn/view?usp=sharing">Learn
                         More</a>
@@ -179,7 +192,7 @@
 
                 <div class="project">
                     <h2>IoT Bot</h2><br>
-                    <img class="p-img" src="iot.jpeg"><br>
+                    <img class="p-img" src="/images/iot.jpeg"><br>
                     <br>
                     <p>Developed a Telegram bot for ESP32-CAM enabling remote board control, photo requests, buzzer
                         activation, and flash control. Integrated
@@ -189,10 +202,10 @@
 
                 <div class="project">
                     <h2>UI/UX Design</h2><br>
-                    <img class="p-img" src="figma.png"><br>
+                    <img class="p-img" src="/images/figma.png"><br>
                     <br>
                     <p>Created an online furniture store called "Sofa" using Figma.</p>
-                    <br><br><br><br>
+                    <br><br><br><br><br>
                     <a style="color: #474747;" target="_blank"
                         href="https://www.figma.com/design/fMr0A4jrscbIDNEWg0UPbV/Hala's-figma-%231-project-(prototype)?node-id=0-1&t=GUSezaQ6e7Knmsup-1">Learn
                         More</a>
@@ -205,12 +218,13 @@
 
     <div id="events" class="events">
 
-        <h1 style="color: #434343;position: relative; top: 20px; padding-top: 20px; text-align: center;"><b>Events</b></h1>
+        <h1 style="color: #434343;position: relative; top: 20px; padding-top: 20px; text-align: center;"><b>Events</b>
+        </h1>
         <br><br><br>
-        <div style="position: relative; " class="all-events">
+        <div class="all-events">
             <div class="event">
                 <div>
-                    <h3>Petra University Exhibition 2024</h3><br>
+                    <h3><b>Petra University Exhibition 2024</b></h3><br>
                     <p>Participated in the 12th edition of the IT Students' Works Exhibition
                         (ITSAF 2024) in Petra University with the participation of both
                         public and private universities.</p>
@@ -221,12 +235,12 @@
             </div>
 
 
-            <br><br>
+            <br>
             <div>
                 <div class="event">
 
                     <div style="position: relative;">
-                        <h3>Global Entrepreneurship Week 2024</h3><br>
+                        <h3><b>Global Entrepreneurship Week 2024</b></h3><br>
                         <p>participated in the Global Entrepreneurship
                             Week at Jordan University of Science and Technology,
                             where we presented our graduation project "WiSAMO".</p>
@@ -238,13 +252,156 @@
 
 
     <section id="contact">
-        <h1 class="title" id="contact" style="text-align: center;"><b>Contact Me</b></h1>
-
-        <div class="contact">
+        <h1 class="title" id="contact" style="text-align: center;">
+            <b>Contact Me</b>
+        </h1>
+        <div>
             <div>
-                <h2>Social Media :</h2>
+                <div class="contact">
+                    <div style="margin: 10% 10%; ">
+                        <div style="display: flex;">
+                            <div>
+                                <h2>Follow Me On:</h2>
+                            </div>
 
-                <div style="display: flex;gap: .9vw; align-items: left; justify-content: left; width: 14vw;">
+                            <div
+                                style="display: flex; position: relative ; left: 11%;border: 1px solid gray; border-radius: 7%;box-shadow: 1px 1px 5px gray;">
+                                <a class="icon" href="https://www.facebook.com/hala.wardeh.5?mibextid=ZbWKwL"
+                                    target="_blank" rel="noopener noreferrer"
+                                    style="text-decoration:none;border:0;width:4vw;height:4vw;padding:0;margin:0;color:#2b3245;">
+                                    <svg class="niftybutton-facebook" style="display:block;fill:currentColor"
+                                        data-donate="true" data-tag="fac" data-name="Facebook" viewBox="0 0 512 512"
+                                        preserveAspectRatio="xMidYMid meet">
+                                        <title>Facebook social icon</title>
+                                        <path
+                                            d="M211.9 197.4h-36.7v59.9h36.7V433.1h70.5V256.5h49.2l5.2-59.1h-54.4c0 0 0-22.1 0-33.7 0-13.9 2.8-19.5 16.3-19.5 10.9 0 38.2 0 38.2 0V82.9c0 0-40.2 0-48.8 0 -52.5 0-76.1 23.1-76.1 67.3C211.9 188.8 211.9 197.4 211.9 197.4z">
+                                        </path>
+                                    </svg></a><a class="icon"
+                                    href="https://www.linkedin.com/in/hala-bani-hamad-aa0b122ba/" target="_blank"
+                                    rel="noopener noreferrer"
+                                    style="text-decoration:none;border:0;width:4vw;height:4vw;padding:0;margin:0;color:#2b3245;">
+                                    <svg class="niftybutton-linkedin" style="display:block;fill:currentColor"
+                                        data-donate="true" data-tag="lin" data-name="LinkedIn" viewBox="0 0 512 512"
+                                        preserveAspectRatio="xMidYMid meet">
+                                        <title>LinkedIn social icon</title>
+                                        <path
+                                            d="M186.4 142.4c0 19-15.3 34.5-34.2 34.5 -18.9 0-34.2-15.4-34.2-34.5 0-19 15.3-34.5 34.2-34.5C171.1 107.9 186.4 123.4 186.4 142.4zM181.4 201.3h-57.8V388.1h57.8V201.3zM273.8 201.3h-55.4V388.1h55.4c0 0 0-69.3 0-98 0-26.3 12.1-41.9 35.2-41.9 21.3 0 31.5 15 31.5 41.9 0 26.9 0 98 0 98h57.5c0 0 0-68.2 0-118.3 0-50-28.3-74.2-68-74.2 -39.6 0-56.3 30.9-56.3 30.9v-25.2H273.8z">
+                                        </path>
+                                    </svg></a>
+
+
+
+                                <a class="icon" href="mailto:halabanihamad10@gmail.com" target="_blank"
+                                    rel="noopener noreferrer"
+                                    style="text-decoration:none; width:4vw;height:vw;padding:0;margin:0;color:#2b3245;">
+                                    <svg class="niftybutton-email" style="display:block;fill:currentColor"
+                                        data-donate="true" data-tag="ema" data-name="Email" viewBox="0 0 512 512"
+                                        preserveAspectRatio="xMidYMid meet">
+                                        <title>Email icon</title>
+                                        <path
+                                            d="M101.3 141.6v228.9h0.3 308.4 0.8V141.6H101.3zM375.7 167.8l-119.7 91.5 -119.6-91.5H375.7zM127.6 194.1l64.1 49.1 -64.1 64.1V194.1zM127.8 344.2l84.9-84.9 43.2 33.1 43-32.9 84.7 84.7L127.8 344.2 127.8 344.2zM384.4 307.8l-64.4-64.4 64.4-49.3V307.8z">
+                                        </path>
+                                    </svg></a><a class="icon" href="https://github.com/halawardeh" target="_blank"
+                                    rel="noopener noreferrer"
+                                    style="text-decoration:none;border:0;width:4vw;height:4vw;padding:0;margin:0;color:#2b3245;">
+                                    <svg class="niftybutton-github" style="display:block;fill:currentColor"
+                                        data-donate="true" data-tag="git" data-name="Github" viewBox="0 0 512 512"
+                                        preserveAspectRatio="xMidYMid meet">
+                                        <title>Github social icon</title>
+                                        <path
+                                            d="M256 70.7c-102.6 0-185.9 83.2-185.9 185.9 0 82.1 53.3 151.8 127.1 176.4 9.3 1.7 12.3-4 12.3-8.9V389.4c-51.7 11.3-62.5-21.9-62.5-21.9 -8.4-21.5-20.6-27.2-20.6-27.2 -16.9-11.5 1.3-11.3 1.3-11.3 18.7 1.3 28.5 19.2 28.5 19.2 16.6 28.4 43.5 20.2 54.1 15.4 1.7-12 6.5-20.2 11.8-24.9 -41.3-4.7-84.7-20.6-84.7-91.9 0-20.3 7.3-36.9 19.2-49.9 -1.9-4.7-8.3-23.6 1.8-49.2 0 0 15.6-5 51.1 19.1 14.8-4.1 30.7-6.2 46.5-6.3 15.8 0.1 31.7 2.1 46.6 6.3 35.5-24 51.1-19.1 51.1-19.1 10.1 25.6 3.8 44.5 1.8 49.2 11.9 13 19.1 29.6 19.1 49.9 0 71.4-43.5 87.1-84.9 91.7 6.7 5.8 12.8 17.1 12.8 34.4 0 24.9 0 44.9 0 51 0 4.9 3 10.7 12.4 8.9 73.8-24.6 127-94.3 127-176.4C441.9 153.9 358.6 70.7 256 70.7z">
+                                        </path>
+                                    </svg></a>
+                            </div>
+                        </div>
+
+                        <div style="display: flex;;margin-top: 7%;">
+                            <h2 style="padding-top: 4%;">References:</h2><br>
+
+                            <div
+                                style=" display: flex; width: 50%;position: relative ; left: 0%; justify-content: space-evenly;">
+                                <div>
+                                    <a href="https://www.linkedin.com/in/fahed-awad-4b3b5413/" target="_blank"><img
+                                            style="height: 35% ;width: 60%; border-radius: 50%; box-shadow: 2px 2px 5px #474747;    margin: 10% 22%;"
+                                            src="images/Dr Fahed Awad.jpg"></a>
+                                    <a style="text-decoration: none; color: #2b3245;"
+                                        href="https://www.linkedin.com/in/fahed-awad-4b3b5413/" target="_blank">
+                                        <h5>
+                                            Dr Fahed Awad
+                                        </h5>
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="https://www.linkedin.com/in/ayman-aljaradat?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                                        target="_blank"><img
+                                            style="height: 35% ;width: 60%; border-radius: 50%; box-shadow: 2px 2px 5px #474747;    margin: 10% 22%;"
+                                            src="images/C-Ayman.jpg"></a>
+
+                                    <a style="text-decoration: none;color: #2b3245;"
+                                        href="https://www.linkedin.com/in/ayman-aljaradat?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                                        target="_blank">
+                                        <h5>
+                                            Ayman Jaradat
+                                        </h5>
+                                    </a>
+                                </div>
+
+                                <div>
+                                    <a href="https://www.linkedin.com/in/batool-walid-b33894228?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                                        target="_blank"><img
+                                            style="height: 35% ;width: 60%; border-radius: 50%; box-shadow: 2px 2px 5px #474747;    margin: 10% 22%;"
+                                            src="images/C-Batool.jpg"></a>
+
+                                    <a style="text-decoration: none;color: #2b3245;"
+                                        href="https://www.linkedin.com/in/batool-walid-b33894228?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                                        target="_blank">
+                                        <h5>
+                                            Batool Aldalki
+                                        </h5>
+                                    </a>
+                                </div>
+
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div>
+                        <div class="vl"></div>
+                        <div class="form">
+                            <form action="/action_page.php">
+
+                                <lable class="label"> Name: </lable>
+                                <input style="position: relative ; right: -2vw; width: 60%;" type="text"><br>
+                                <lable class="label"> Email: </lable> <input
+                                    style="position: relative ; right: -2.15vw;width: 60%;" type="text"><br>
+                                <lable class="label"> Subject: </lable><input
+                                    style="position: relative ; right: -.7vw;width: 60%;" type="text"><br>
+                                <label class="label"> Messgae: </label>
+                                <div><textarea rows="5"
+                                        style="color: gray;width: 94%; height: 30%;">Write message for me</textarea>
+                                </div><br>
+                                <input class="button" type="submit" style="top: 0%; margin-left: -15%;" value="send">
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+
+    <footer class="footer" style="height: auto;">
+        <div>
+            <img style=" width: 100%; height: 50%; margin-top: 0%;" src="/images/logo.png">
+            <div style="display: flex;">
+                <div style=" margin: -1% 13%;width: 100%;    font-size: xx-large;">
+                    <p>+962 7 8150 9970</p>
+                    <p><a style="color: black; text-decoration: none;"
+                            href="mailto:halabanihamad10@gmail.com">halabahihamad10@gmail.com</a></p>
+                </div>
+
+                <div class="icons">
                     <a class="icon" href="https://www.facebook.com/hala.wardeh.5?mibextid=ZbWKwL" target="_blank"
                         rel="noopener noreferrer"
                         style="text-decoration:none;border:0;width:4vw;height:4vw;padding:0;margin:0;color:#2b3245;">
@@ -288,116 +445,22 @@
                             </path>
                         </svg></a>
                 </div>
-
-                <h2 style="margin-top: 3vw;">References :</h2><br>
-                <a style="text-decoration: none; color: #2b3245;"
-                    href="https://www.linkedin.com/in/ayman-aljaradat?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-                    target="_blank">
-                    <h5>
-                        <li>Ayman Jaradat</li>
-                    </h5>
-                </a>
-
-                <a style="text-decoration: none; color: #2b3245;"
-                    href="https://www.linkedin.com/in/batool-walid-b33894228?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-                    target="_blank">
-                    <h5>
-                        <li>Batool Aldalki</li>
-                    </h5>
-                </a>
-
-
-
-
-            </div>
-            <div class="vl"></div>
-            <div class="form">
-                <form action="/action_page.php">
-                    
-                    <lable class="label"> Name: </lable>
-                    <input style="position: relative ; right: -2vw; width: 60%;" type="text"><br>
-                    <lable class="label"> Email: </lable> <input style="position: relative ; right: -2.15vw;width: 60%;"
-                        type="text"><br>
-                    <lable class="label"> Subject: </lable><input style="position: relative ; right: -.7vw;width: 60%;"
-                        type="text"><br>
-                    <label class="label"> Messgae: </label> <textarea rows="5" style="color: gray;width: 60%; height: 30%;" >Write message for me</textarea><br>
-                    <input class="button" type="submit" style="top: 10%; margin-left: -7vw;" value="send" >
-                    
-                </form>
             </div>
         </div>
-    </section>
-
-
-    <footer class="footer">
-        <div>
-            <img style="width: 85%; height: 26%; margin-top: 6vw;" src="logo.png">
-
-            <div
-                style="display: flex;gap: .9vw; align-items: left; justify-content: left;width: 14vw; margin-left: 5vw; margin-top: 2vw;">
-                <a class="icon" href="https://www.facebook.com/hala.wardeh.5?mibextid=ZbWKwL" target="_blank"
-                    rel="noopener noreferrer"
-                    style="text-decoration:none;border:0;width:4vw;height:4vw;padding:0;margin:0;color:#2b3245;">
-                    <svg class="niftybutton-facebook" style="display:block;fill:currentColor" data-donate="true"
-                        data-tag="fac" data-name="Facebook" viewBox="0 0 512 512" preserveAspectRatio="xMidYMid meet">
-                        <title>Facebook social icon</title>
-                        <path
-                            d="M211.9 197.4h-36.7v59.9h36.7V433.1h70.5V256.5h49.2l5.2-59.1h-54.4c0 0 0-22.1 0-33.7 0-13.9 2.8-19.5 16.3-19.5 10.9 0 38.2 0 38.2 0V82.9c0 0-40.2 0-48.8 0 -52.5 0-76.1 23.1-76.1 67.3C211.9 188.8 211.9 197.4 211.9 197.4z">
-                        </path>
-                    </svg></a><a class="icon" href="https://www.linkedin.com/in/hala-bani-hamad-aa0b122ba/"
-                    target="_blank" rel="noopener noreferrer"
-                    style="text-decoration:none;border:0;width:4vw;height:4vw;padding:0;margin:0;color:#2b3245;">
-                    <svg class="niftybutton-linkedin" style="display:block;fill:currentColor" data-donate="true"
-                        data-tag="lin" data-name="LinkedIn" viewBox="0 0 512 512" preserveAspectRatio="xMidYMid meet">
-                        <title>LinkedIn social icon</title>
-                        <path
-                            d="M186.4 142.4c0 19-15.3 34.5-34.2 34.5 -18.9 0-34.2-15.4-34.2-34.5 0-19 15.3-34.5 34.2-34.5C171.1 107.9 186.4 123.4 186.4 142.4zM181.4 201.3h-57.8V388.1h57.8V201.3zM273.8 201.3h-55.4V388.1h55.4c0 0 0-69.3 0-98 0-26.3 12.1-41.9 35.2-41.9 21.3 0 31.5 15 31.5 41.9 0 26.9 0 98 0 98h57.5c0 0 0-68.2 0-118.3 0-50-28.3-74.2-68-74.2 -39.6 0-56.3 30.9-56.3 30.9v-25.2H273.8z">
-                        </path>
-                    </svg></a>
-
-
-
-                <a class="icon" href="mailto:halabanihamad10@gmail.com" target="_blank" rel="noopener noreferrer"
-                    style="text-decoration:none;border:0;width:4vw;height:vw;padding:0;margin:0;color:#2b3245;">
-                    <svg class="niftybutton-email" style="display:block;fill:currentColor" data-donate="true"
-                        data-tag="ema" data-name="Email" viewBox="0 0 512 512" preserveAspectRatio="xMidYMid meet">
-                        <title>Email icon</title>
-                        <path
-                            d="M101.3 141.6v228.9h0.3 308.4 0.8V141.6H101.3zM375.7 167.8l-119.7 91.5 -119.6-91.5H375.7zM127.6 194.1l64.1 49.1 -64.1 64.1V194.1zM127.8 344.2l84.9-84.9 43.2 33.1 43-32.9 84.7 84.7L127.8 344.2 127.8 344.2zM384.4 307.8l-64.4-64.4 64.4-49.3V307.8z">
-                        </path>
-                    </svg></a><a class="icon" href="https://github.com/halawardeh" target="_blank"
-                    rel="noopener noreferrer"
-                    style="text-decoration:none;border:0;width:4vw;height:4vw;padding:0;margin:0;color:#2b3245;">
-                    <svg class="niftybutton-github" style="display:block;fill:currentColor" data-donate="true"
-                        data-tag="git" data-name="Github" viewBox="0 0 512 512" preserveAspectRatio="xMidYMid meet">
-                        <title>Github social icon</title>
-                        <path
-                            d="M256 70.7c-102.6 0-185.9 83.2-185.9 185.9 0 82.1 53.3 151.8 127.1 176.4 9.3 1.7 12.3-4 12.3-8.9V389.4c-51.7 11.3-62.5-21.9-62.5-21.9 -8.4-21.5-20.6-27.2-20.6-27.2 -16.9-11.5 1.3-11.3 1.3-11.3 18.7 1.3 28.5 19.2 28.5 19.2 16.6 28.4 43.5 20.2 54.1 15.4 1.7-12 6.5-20.2 11.8-24.9 -41.3-4.7-84.7-20.6-84.7-91.9 0-20.3 7.3-36.9 19.2-49.9 -1.9-4.7-8.3-23.6 1.8-49.2 0 0 15.6-5 51.1 19.1 14.8-4.1 30.7-6.2 46.5-6.3 15.8 0.1 31.7 2.1 46.6 6.3 35.5-24 51.1-19.1 51.1-19.1 10.1 25.6 3.8 44.5 1.8 49.2 11.9 13 19.1 29.6 19.1 49.9 0 71.4-43.5 87.1-84.9 91.7 6.7 5.8 12.8 17.1 12.8 34.4 0 24.9 0 44.9 0 51 0 4.9 3 10.7 12.4 8.9 73.8-24.6 127-94.3 127-176.4C441.9 153.9 358.6 70.7 256 70.7z">
-                        </path>
-                    </svg></a>
-            </div>
-        </div>
-        <div style="margin-left: 3vw;margin-top: 2.4vw; width: 50%;">
-            <ul style="list-style-type: none; margin-top: 3.5vw; color: #BFA2DB;">
-                <li><a class="nav-link" href="#home" style="color: white; font-family: Dosis, serif;
-                    font-size: 1.5vw;">Home</a></li>
-                <li><a class="nav-link" href="#education" style="color: white;font-family: Dosis, serif;
-                    font-size: 1.5vw;"> Education</a></li>
-                <li><a class="nav-link" href="#pkills" style="color: white;font-family: Dosis, serif;
-                    font-size: 1.5vw;"> Skills</a></li>
-                <li><a class="nav-link" href="#projects" style="color: white;font-family: Dosis, serif;
-                    font-size: 1.5vw;"> Projects</a></li>
-                <li><a class="nav-link" href="#events" style="color: white;font-family: Dosis, serif;
-                    font-size: 1.5vw;">Events</a></li>
-                <li><a class="nav-link" href="#contact" style="color: white;font-family: Dosis, serif;
-                    font-size: 1.5vw;">Contact Me</a></li>
+        <div class="f-bar">
+            <ul style="list-style-type: none; margin-top:10% ;margin-left: 18%; color: #BFA2DB;">
+                <li><a class="nav-link1" href="#home" >Home</a></li>
+                <li><a class="nav-link1" href="#education" > Education</a></li>
+                <li><a class="nav-link1" href="#pkills" > Skills</a></li>
+                <li><a class="nav-link1" href="#projects" > Projects</a></li>
+                <li><a class="nav-link1" href="#events" >Events</a></li>
+                <li><a class="nav-link1" href="#contact" >Contact Me</a></li>
             </ul>
         </div>
 
-        <iframe
+        <iframe class="ifram"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3363.00972981104!2d35.847093875450085!3d32.55258557375825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151c7715f2c2e7ab%3A0x51755840c8ddbefd!2sOrange%20Digital%20Village%20Irbid!5e0!3m2!1sen!2sjo!4v1734901699062!5m2!1sen!2sjo"
-            width="50%" height="80%" style="border:0;margin-top: 5vw; margin-left:-35vw ; " allowfullscreen=""
-            loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </footer>
 
     </div>
@@ -410,8 +473,8 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+        </script>
 
 
 </body>
